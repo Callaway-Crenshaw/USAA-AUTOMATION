@@ -66,7 +66,7 @@ with st.form("registration_form"):
                     <br>
                     <table cellpadding="0" cellspacing="0" border="0">
                         <tr>
-                            <td valign="top" style="padding-right: 15px;">
+                            <td valign="top" style="padding-right: 15px; width: 120px;">
                                 <!-- Replace with your actual logo URL -->
                                 <img src="https://github.com/Callaway-Crenshaw/USAA-AUTOMATION/blob/main/suryl_logo_rgb.png?raw=true" alt="Company Logo" width="80" height="auto" style="display: block;">
                             </td>
