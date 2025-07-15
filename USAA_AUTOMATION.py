@@ -20,7 +20,7 @@ except Exception as e:
 
 # --- Streamlit Application UI ---
 st.set_page_config(page_title="Email Generator", layout="centered")
-st.title("Input Information", layout="centered")
+st.title("Input Information")
 with st.form("Email Form"):
     first_name = st.text_input("First Name", placeholder="John")
     last_name = st.text_input("Last Name", placeholder="Doe")
