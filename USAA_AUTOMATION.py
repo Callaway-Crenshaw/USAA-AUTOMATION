@@ -19,10 +19,8 @@ except Exception as e:
     st.stop()
 
 # --- Streamlit Application UI ---
-st.set_page_config(page_title="User Registration & Email Sender", layout="centered")
-st.title("Register and Get Your Welcome Email!")
-st.markdown("Enter your details below to register and receive a confirmation email.")
-with st.form("registration_form"):
+st.set_page_config(page_title="Email Generator", layout="centered")
+with st.form("Email Form"):
     first_name = st.text_input("First Name", placeholder="John")
     last_name = st.text_input("Last Name", placeholder="Doe")
     email = st.text_input("Email", placeholder="john.doe@example.com")
