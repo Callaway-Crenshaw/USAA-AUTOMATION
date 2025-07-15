@@ -52,7 +52,7 @@ with st.form("registration_form"):
                     st.stop()
             except Exception as e:
                 st.error(f"An error occurred while adding data to Supabase: {e}")
-                st.stop() # Stop the app if Supabase insert fails
+                st.stop()
             try:
                 sg = SendGridAPIClient(sendgrid_api_key)
                 subject = f"{first_name} Virtual USAA Interview!"
@@ -60,9 +60,8 @@ with st.form("registration_form"):
                 <html>
                 <body>
                     <p>Hello {first_name},</p>
-                    <br>
-                    <p>I am attaching a link to my schedule for USAA Interviews, please select the best time that works for you. If none of those times work, please reach out!</p>
-                    <p>I look forward to interviewing you for the position!</p>
+                    <p style="margin: 0;">I am attaching a link to my schedule for USAA Interviews, please select the best time that works for you. If none of those times work, please reach out!</p>
+                    <p style="margin: 0;">I look forward to interviewing you for the position!</p>
                     <p>Thank you,</p>
                     <br>
                     <table cellpadding="0" cellspacing="0" border="0">
