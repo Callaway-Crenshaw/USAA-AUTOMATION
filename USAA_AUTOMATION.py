@@ -33,8 +33,8 @@ with st.form("registration_form"):
         elif "@" not in email or "." not in email:
             st.warning("Please enter a valid email address.")
         else:
-            current_time = datetime.now().isoformat() # ISO format for Supabase timestamp
-            table_name = "leads" # Assuming your table name is 'leads'
+            current_time = datetime.now().isoformat()
+            table_name = "Email Database"
             user_data = {
                 "First Name": first_name,
                 "Last Name": last_name,
