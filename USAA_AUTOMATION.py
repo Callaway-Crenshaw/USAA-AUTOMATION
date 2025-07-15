@@ -68,7 +68,7 @@ with st.form("registration_form"):
                         <tr>
                             <td valign="top" style="padding-right: 15px;">
                                 <!-- Replace with your actual logo URL -->
-                                <img src="https://github.com/Callaway-Crenshaw/USAA-AUTOMATION/blob/main/suryl_logo_rgb.png" alt="Company Logo" width="80" height="80" style="display: block;">
+                                <img src="https://github.com/Callaway-Crenshaw/USAA-AUTOMATION/blob/main/suryl_logo_rgb.png?raw=true" alt="Company Logo" width="80" height="80" style="display: block;">
                             </td>
                             <td valign="top" style="border-left: 1px solid #e0e0e0; padding-left: 15px;">
                                 <p style="margin: 0; font-size: 14px; line-height: 1.5;"><strong>Callaway Crenshaw</strong></p>
